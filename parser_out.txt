@@ -1,0 +1,1248 @@
+
+-------------------------
+|Soni||plays||cricket|
+|n||v||n|
+Parser output: 
+	root(plays-1)
+	subject(plays-1,Soni-0)
+	object(plays-1,cricket-2)
+
+New words: 	None
+
+-------------------------
+|Soni||is||playing||cricket|
+|n||v||v||n|
+Parser output: 
+	aux(playing-2,is-1)
+	root(playing-2)
+	subject(playing-2,Soni-0)
+	object(playing-2,cricket-3)
+
+New words: 	None
+
+-------------------------
+|Soni||has||played||cricket|
+|n||v||v||n|
+Parser output: 
+	aux(played-2,has-1)
+	root(played-2)
+	subject(played-2,Soni-0)
+	object(played-2,cricket-3)
+
+New words: 	None
+
+-------------------------
+|Soni||has||been||playing||cricket|
+|n||v||v||v||n|
+Parser output: 
+	aux(playing-3,has-1)
+	aux(playing-3,been-2)
+	root(playing-3)
+	subject(playing-3,Soni-0)
+	object(playing-3,cricket-4)
+
+New words: 	None
+
+-------------------------
+|Hari||played||cricket|
+|n||v||n|
+Parser output: 
+	root(played-1)
+	subject(played-1,Hari-0)
+	object(played-1,cricket-2)
+
+New words: 	None
+
+-------------------------
+|Hari||was||playing||cricket|
+|n||v||v||n|
+Parser output: 
+	aux(playing-2,was-1)
+	root(playing-2)
+	subject(playing-2,Hari-0)
+	object(playing-2,cricket-3)
+
+New words: 	None
+
+-------------------------
+|Hari||had||played||cricket|
+|n||v||v||n|
+Parser output: 
+	aux(played-2,had-1)
+	root(played-2)
+	subject(played-2,Hari-0)
+	object(played-2,cricket-3)
+
+New words: 	None
+
+-------------------------
+|Hari||had||been||playing||cricket|
+|n||v||v||v||n|
+Parser output: 
+	aux(playing-3,had-1)
+	aux(playing-3,been-2)
+	root(playing-3)
+	subject(playing-3,Hari-0)
+	object(playing-3,cricket-4)
+
+New words: 	None
+
+-------------------------
+|Reyansh||will||play||cricket|
+|n||v||v||n|
+Parser output: 
+	aux(play-2,will-1)
+	root(play-2)
+	subject(play-2,Reyansh-0)
+	object(play-2,cricket-3)
+
+New words: 	None
+
+-------------------------
+|Reyansh||will||be||playing||cricket|
+|n||v||v||v||n|
+Parser output: 
+	aux(playing-3,will-1)
+	aux(playing-3,be-2)
+	root(playing-3)
+	subject(playing-3,Reyansh-0)
+	object(playing-3,cricket-4)
+
+New words: 	None
+
+-------------------------
+|Reyansh||will||have||played||cricket|
+|n||v||v||v||n|
+Parser output: 
+	aux(played-3,will-1)
+	aux(played-3,have-2)
+	root(played-3)
+	subject(played-3,Reyansh-0)
+	object(played-3,cricket-4)
+
+New words: 	None
+
+-------------------------
+|Reyansh||will||have||been||playing||cricket|
+|n||v||v||v||v||n|
+Parser output: 
+	aux(playing-4,will-1)
+	aux(playing-4,have-2)
+	aux(playing-4,been-3)
+	root(playing-4)
+	subject(playing-4,Reyansh-0)
+	object(playing-4,cricket-5)
+
+New words: 	None
+
+-------------------------
+|He||writes||a||letter|
+|pron||v||article||n|
+Parser output: 
+	root(writes-1)
+	subject(writes-1,He-0)
+	det(letter-3,a-2)
+	object(writes-1,letter-3)
+
+New words: 	None
+
+-------------------------
+|He||is||writing||a||letter|
+|pron||v||v||article||n|
+Parser output: 
+	aux(writing-2,is-1)
+	root(writing-2)
+	subject(writing-2,He-0)
+	det(letter-4,a-3)
+	object(writing-2,letter-4)
+
+New words: 	None
+
+-------------------------
+|He||has||written||a||letter|
+|pron||v||v||article||n|
+Parser output: 
+	aux(written-2,has-1)
+	root(written-2)
+	subject(written-2,He-0)
+	det(letter-4,a-3)
+	object(written-2,letter-4)
+
+New words: 	None
+
+-------------------------
+|They||wrote||the||letter|
+|pron||v||article||n|
+Parser output: 
+	root(wrote-1)
+	subject(wrote-1,They-0)
+	det(letter-3,the-2)
+	object(wrote-1,letter-3)
+
+New words: 	None
+
+-------------------------
+|They||were||writing||the||letter|
+|pron||v||v||article||n|
+Parser output: 
+	aux(writing-2,were-1)
+	root(writing-2)
+	subject(writing-2,They-0)
+	det(letter-4,the-3)
+	object(writing-2,letter-4)
+
+New words: 	None
+
+-------------------------
+|They||had||written||the||letter|
+|pron||v||v||article||n|
+Parser output: 
+	aux(written-2,had-1)
+	root(written-2)
+	subject(written-2,They-0)
+	det(letter-4,the-3)
+	object(written-2,letter-4)
+
+New words: 	None
+
+-------------------------
+|She||will||write||a||letter|
+|pron||v||v||article||n|
+Parser output: 
+	aux(write-2,will-1)
+	root(write-2)
+	subject(write-2,She-0)
+	det(letter-4,a-3)
+	object(write-2,letter-4)
+
+New words: 	None
+
+-------------------------
+|She||will||be||writing||a||letter|
+|pron||v||v||v||article||n|
+Parser output: 
+	aux(writing-3,will-1)
+	aux(writing-3,be-2)
+	root(writing-3)
+	subject(writing-3,She-0)
+	det(letter-5,a-4)
+	object(writing-3,letter-5)
+
+New words: 	None
+
+-------------------------
+|She||will||have||written||a||letter|
+|pron||v||v||v||article||n|
+Parser output: 
+	aux(written-3,will-1)
+	aux(written-3,have-2)
+	root(written-3)
+	subject(written-3,She-0)
+	det(letter-5,a-4)
+	object(written-3,letter-5)
+
+New words: 	None
+
+-------------------------
+|She||will||have||been||writing||a||letter|
+|pron||v||v||v||v||article||n|
+Parser output: 
+	aux(writing-4,will-1)
+	aux(writing-4,have-2)
+	aux(writing-4,been-3)
+	root(writing-4)
+	subject(writing-4,She-0)
+	det(letter-6,a-5)
+	object(writing-4,letter-6)
+
+New words: 	None
+
+-------------------------
+|The||boy||is||playing||with||the||instruments|
+|article||n||v||v||prep||article||n|
+Parser output: 
+	aux(playing-3,is-2)
+	root(playing-3)
+	det(boy-1,The-0)
+	subject(playing-3,boy-1)
+	det(instruments-6,the-5)
+	case(instruments-6,with-4)
+	nmod(playing-3,instruments-6)
+
+New words: 	None
+
+-------------------------
+|The||boy||was||playing||with||the||instruments|
+|article||n||v||v||prep||article||n|
+Parser output: 
+	aux(playing-3,was-2)
+	root(playing-3)
+	det(boy-1,The-0)
+	subject(playing-3,boy-1)
+	det(instruments-6,the-5)
+	case(instruments-6,with-4)
+	nmod(playing-3,instruments-6)
+
+New words: 	None
+
+-------------------------
+|The||boy||will||be||playing||with||the||instruments|
+|article||n||v||v||v||prep||article||n|
+Parser output: 
+	aux(playing-4,will-2)
+	aux(playing-4,be-3)
+	root(playing-4)
+	det(boy-1,The-0)
+	subject(playing-4,boy-1)
+	det(instruments-7,the-6)
+	case(instruments-7,with-5)
+	nmod(playing-4,instruments-7)
+
+New words: 	None
+
+-------------------------
+|Sita||sings||a||song|
+|n||v||article||n|
+Parser output: 
+	root(sings-1)
+	subject(sings-1,Sita-0)
+	det(song-3,a-2)
+	object(sings-1,song-3)
+
+New words: 	None
+
+-------------------------
+|The||sun||rises||in||the||east|
+|article||n||v||prep||article||n|
+Parser output: 
+	root(rises-2)
+	det(sun-1,The-0)
+	subject(rises-2,sun-1)
+	det(east-5,the-4)
+	case(east-5,in-3)
+	nmod(rises-2,east-5)
+
+New words: 	None
+
+-------------------------
+|The||flowers||bloom||at||sunrise|
+|article||n||v||prep||n|
+Parser output: 
+	root(bloom-2)
+	det(flowers-1,The-0)
+	subject(bloom-2,flowers-1)
+	case(sunrise-4,at-3)
+	nmod(bloom-2,sunrise-4)
+
+New words: 	None
+
+-------------------------
+|He||spoke||loudly||at||the||meeting|
+|pron||v||adv||prep||article||n|
+Parser output: 
+	root(spoke-1)
+	subject(spoke-1,He-0)
+	det(meeting-5,the-4)
+	case(meeting-5,at-3)
+	nmod(spoke-1,meeting-5)
+	advmod(spoke-1,loudly-2)
+
+New words: 	None
+
+-------------------------
+|The||boy||donated||the||clothes||to||a||poor||person|
+|article||n||v||article||n||prep||article||adj||n|
+Parser output: 
+	root(donated-2)
+	det(boy-1,The-0)
+	subject(donated-2,boy-1)
+	det(clothes-4,the-3)
+	object(donated-2,clothes-4)
+	det(person-8,a-6)
+	adj(person-8,poor-7)
+	case(person-8,to-5)
+	nmod(clothes-4,person-8)
+
+New words: 	None
+
+-------------------------
+|The||boys||are||playing||with||the||instruments|
+|article||n||v||v||prep||article||n|
+Parser output: 
+	aux(playing-3,are-2)
+	root(playing-3)
+	det(boys-1,The-0)
+	subject(playing-3,boys-1)
+	det(instruments-6,the-5)
+	case(instruments-6,with-4)
+	nmod(playing-3,instruments-6)
+
+New words: 	None
+
+-------------------------
+|The||boys||were||playing||with||the||instruments|
+|article||n||v||v||prep||article||n|
+Parser output: 
+	aux(playing-3,were-2)
+	root(playing-3)
+	det(boys-1,The-0)
+	subject(playing-3,boys-1)
+	det(instruments-6,the-5)
+	case(instruments-6,with-4)
+	nmod(playing-3,instruments-6)
+
+New words: 	None
+
+-------------------------
+|Sita||is||singing||a||song|
+|n||v||v||article||n|
+Parser output: 
+	aux(singing-2,is-1)
+	root(singing-2)
+	subject(singing-2,Sita-0)
+	det(song-4,a-3)
+	object(singing-2,song-4)
+
+New words: 	None
+
+-------------------------
+|Sita||has||sung||a||song|
+|n||v||v||article||n|
+Parser output: 
+	aux(sung-2,has-1)
+	root(sung-2)
+	subject(sung-2,Sita-0)
+	det(song-4,a-3)
+	object(sung-2,song-4)
+
+New words: 	None
+
+-------------------------
+|Sita||has||been||singing||a||song|
+|n||v||v||v||article||n|
+Parser output: 
+	aux(singing-3,has-1)
+	aux(singing-3,been-2)
+	root(singing-3)
+	subject(singing-3,Sita-0)
+	det(song-5,a-4)
+	object(singing-3,song-5)
+
+New words: 	None
+
+-------------------------
+|Sita||will||dance||on||the||floor|
+|n||v||v||prep||article||n|
+Parser output: 
+	aux(dance-2,will-1)
+	root(dance-2)
+	subject(dance-2,Sita-0)
+	det(floor-5,the-4)
+	case(floor-5,on-3)
+	nmod(dance-2,floor-5)
+
+New words: 	None
+
+-------------------------
+|Sita||will||be||dancing||on||the||floor|
+|n||v||v||v||prep||article||n|
+Parser output: 
+	aux(dancing-3,will-1)
+	aux(dancing-3,be-2)
+	root(dancing-3)
+	subject(dancing-3,Sita-0)
+	det(floor-6,the-5)
+	case(floor-6,on-4)
+	nmod(dancing-3,floor-6)
+
+New words: 	None
+
+-------------------------
+|She||always||tell||a||lie|
+|pron||adv||v||article||n|
+Parser output: 
+	root(tell-2)
+	subject(tell-2,She-0)
+	det(lie-4,a-3)
+	object(tell-2,lie-4)
+	advmod(tell-2,always-1)
+
+New words: 	None
+
+-------------------------
+|She||is||walking||slowly|
+|pron||v||v||adv|
+Parser output: 
+	aux(walking-2,is-1)
+	root(walking-2)
+	subject(walking-2,She-0)
+	advmod(walking-2,slowly-3)
+
+New words: 	None
+
+-------------------------
+|The||children||ran||fast|
+|article||n||v||adv|
+Parser output: 
+	root(ran-2)
+	det(children-1,The-0)
+	subject(ran-2,children-1)
+	advmod(ran-2,fast-3)
+
+New words: 	None
+
+-------------------------
+|It||is||raining||regularly|
+|pron||v||v||adv|
+Parser output: 
+	aux(raining-2,is-1)
+	root(raining-2)
+	subject(raining-2,It-0)
+	advmod(raining-2,regularly-3)
+
+New words: 	None
+
+-------------------------
+|I||speak||english||fluently|
+|pron||v||n||adv|
+Parser output: 
+	root(speak-1)
+	subject(speak-1,I-0)
+	object(speak-1,english-2)
+	advmod(speak-1,fluently-3)
+
+New words: 	None
+
+-------------------------
+|He||disappeared||immediately|
+|pron||v||adv|
+Parser output: 
+	root(disappeared-1)
+	subject(disappeared-1,He-0)
+	advmod(disappeared-1,immediately-2)
+
+New words: 	None
+
+-------------------------
+|Preeti||spoke||softly|
+|n||v||adv|
+Parser output: 
+	root(spoke-1)
+	subject(spoke-1,Preeti-0)
+	advmod(spoke-1,softly-2)
+
+New words: 	None
+
+-------------------------
+|He||is||crying||loudly||at||the||field|
+|pron||v||v||adv||prep||article||n|
+Parser output: 
+	aux(crying-2,is-1)
+	root(crying-2)
+	subject(crying-2,He-0)
+	det(field-6,the-5)
+	case(field-6,at-4)
+	nmod(crying-2,field-6)
+	advmod(crying-2,loudly-3)
+
+New words: 	None
+
+-------------------------
+|He||is||wise|
+|pron||v||adj|
+Parser output: 
+	root(is-1)
+	subject(is-1,He-0)
+	adjsub(He-0,wise-2)
+
+New words: 	None
+
+-------------------------
+|The||rose||is||red|
+|article||n||v||adj|
+Parser output: 
+	root(is-2)
+	det(rose-1,The-0)
+	subject(is-2,rose-1)
+	adjsub(rose-1,red-3)
+
+New words: 	None
+
+-------------------------
+|The||glass||is||breakable|
+|article||n||v||adj|
+Parser output: 
+	root(is-2)
+	det(glass-1,The-0)
+	subject(is-2,glass-1)
+	adjsub(glass-1,breakable-3)
+
+New words: 	None
+
+-------------------------
+|I||met||a||homeless||person|
+|pron||v||article||adj||n|
+Parser output: 
+	root(met-1)
+	subject(met-1,I-0)
+	det(person-4,a-2)
+	adj(person-4,homeless-3)
+	object(met-1,person-4)
+
+New words: 	None
+
+-------------------------
+|Bhawana||is||a||beautiful||girl|
+|n||v||article||adj||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Bhawana-0)
+	det(girl-4,a-2)
+	adj(girl-4,beautiful-3)
+	object(is-1,girl-4)
+
+New words: 	None
+
+-------------------------
+|He||played||well|
+|pron||v||adv|
+Parser output: 
+	root(played-1)
+	subject(played-1,He-0)
+	advmod(played-1,well-2)
+
+New words: 	None
+
+-------------------------
+|The||man||drove||fast|
+|article||n||v||adv|
+Parser output: 
+	root(drove-2)
+	det(man-1,The-0)
+	subject(drove-2,man-1)
+	advmod(drove-2,fast-3)
+
+New words: 	None
+
+-------------------------
+|Alvar||is||a||small||city|
+|n||v||article||adj||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Alvar-0)
+	det(city-4,a-2)
+	adj(city-4,small-3)
+	object(is-1,city-4)
+
+New words: 	None
+
+-------------------------
+|Vashnavi||is||looking||beautiful|
+|n||v||v||adj|
+Parser output: 
+	aux(looking-2,is-1)
+	root(looking-2)
+	subject(looking-2,Vashnavi-0)
+	adjsub(Vashnavi-0,beautiful-3)
+
+New words: 	None
+
+-------------------------
+|The||students||were||happy|
+|article||n||v||adj|
+Parser output: 
+	root(were-2)
+	det(students-1,The-0)
+	subject(were-2,students-1)
+	adjsub(students-1,happy-3)
+
+New words: 	None
+
+-------------------------
+|Marigold||is||yellow||in||color|
+|n||v||adj||prep||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Marigold-0)
+	adj(color-4,yellow-2)
+	case(color-4,in-3)
+	nmod(is-1,color-4)
+
+New words: 	None
+
+-------------------------
+|The||beautiful||girl||won||the||race|
+|article||adj||n||v||article||n|
+Parser output: 
+	root(won-3)
+	det(girl-2,The-0)
+	adj(girl-2,beautiful-1)
+	subject(won-3,girl-2)
+	det(race-5,the-4)
+	object(won-3,race-5)
+
+New words: 	None
+
+-------------------------
+|She||is||wearing||a||sleeveless||shirt|
+|pron||v||v||article||adj||n|
+Parser output: 
+	aux(wearing-2,is-1)
+	root(wearing-2)
+	subject(wearing-2,She-0)
+	det(shirt-5,a-3)
+	adj(shirt-5,sleeveless-4)
+	object(wearing-2,shirt-5)
+
+New words: 	None
+
+-------------------------
+|The||beautiful||girl||had||won||the||race|
+|article||adj||n||v||v||article||n|
+Parser output: 
+	aux(won-4,had-3)
+	root(won-4)
+	det(girl-2,The-0)
+	adj(girl-2,beautiful-1)
+	subject(won-4,girl-2)
+	det(race-6,the-5)
+	object(won-4,race-6)
+
+New words: 	None
+
+-------------------------
+|You||are||winning||in||the||competition|
+|pron||v||v||prep||article||n|
+Parser output: 
+	aux(winning-2,are-1)
+	root(winning-2)
+	subject(winning-2,You-0)
+	det(competition-5,the-4)
+	case(competition-5,in-3)
+	nmod(winning-2,competition-5)
+
+New words: 	None
+
+-------------------------
+|You||have||won||in||the||competition|
+|pron||v||v||prep||article||n|
+Parser output: 
+	aux(won-2,have-1)
+	root(won-2)
+	subject(won-2,You-0)
+	det(competition-5,the-4)
+	case(competition-5,in-3)
+	nmod(won-2,competition-5)
+
+New words: 	None
+
+-------------------------
+|You||will||win||in||the||competition|
+|pron||v||v||prep||article||n|
+Parser output: 
+	aux(win-2,will-1)
+	root(win-2)
+	subject(win-2,You-0)
+	det(competition-5,the-4)
+	case(competition-5,in-3)
+	nmod(win-2,competition-5)
+
+New words: 	None
+
+-------------------------
+|You||were||winning||in||the||competition|
+|pron||v||v||prep||article||n|
+Parser output: 
+	aux(winning-2,were-1)
+	root(winning-2)
+	subject(winning-2,You-0)
+	det(competition-5,the-4)
+	case(competition-5,in-3)
+	nmod(winning-2,competition-5)
+
+New words: 	None
+
+-------------------------
+|You||had||won||in||the||competition|
+|pron||v||v||prep||article||n|
+Parser output: 
+	aux(won-2,had-1)
+	root(won-2)
+	subject(won-2,You-0)
+	det(competition-5,the-4)
+	case(competition-5,in-3)
+	nmod(won-2,competition-5)
+
+New words: 	None
+
+-------------------------
+|You||will||be||winning||in||the||competition|
+|pron||v||v||v||prep||article||n|
+Parser output: 
+	aux(winning-3,will-1)
+	aux(winning-3,be-2)
+	root(winning-3)
+	subject(winning-3,You-0)
+	det(competition-6,the-5)
+	case(competition-6,in-4)
+	nmod(winning-3,competition-6)
+
+New words: 	None
+
+-------------------------
+|You||had||been||winning||in||the||competition|
+|pron||v||v||v||prep||article||n|
+Parser output: 
+	aux(winning-3,had-1)
+	aux(winning-3,been-2)
+	root(winning-3)
+	subject(winning-3,You-0)
+	det(competition-6,the-5)
+	case(competition-6,in-4)
+	nmod(winning-3,competition-6)
+
+New words: 	None
+
+-------------------------
+|You||will||have||been||winning||in||the||competition|
+|pron||v||v||v||v||prep||article||n|
+Parser output: 
+	aux(winning-4,will-1)
+	aux(winning-4,have-2)
+	aux(winning-4,been-3)
+	root(winning-4)
+	subject(winning-4,You-0)
+	det(competition-7,the-6)
+	case(competition-7,in-5)
+	nmod(winning-4,competition-7)
+
+New words: 	None
+
+-------------------------
+|The||red||roses||are||blooming||in||the||garden|
+|article||adj||n||v||v||prep||article||n|
+Parser output: 
+	aux(blooming-4,are-3)
+	root(blooming-4)
+	det(roses-2,The-0)
+	adj(roses-2,red-1)
+	subject(blooming-4,roses-2)
+	det(garden-7,the-6)
+	case(garden-7,in-5)
+	nmod(blooming-4,garden-7)
+
+New words: 	None
+
+-------------------------
+|She||is||walking||too||slowly|
+|pron||v||v||adj||adv|
+Parser output: 
+	aux(walking-2,is-1)
+	root(walking-2)
+	subject(walking-2,She-0)
+	adjsub(She-0,too-3)
+	advmod(walking-2,slowly-4)
+
+New words: 	None
+
+-------------------------
+|The||sun||sets||in||the||west|
+|article||n||v||prep||article||n|
+Parser output: 
+	root(sets-2)
+	det(sun-1,The-0)
+	subject(sets-2,sun-1)
+	det(west-5,the-4)
+	case(west-5,in-3)
+	nmod(sets-2,west-5)
+
+New words: 	None
+
+-------------------------
+|I||love||fishing|
+|pron||v||n|
+Parser output: 
+	root(love-1)
+	subject(love-1,I-0)
+	object(love-1,fishing-2)
+
+New words: 	None
+
+-------------------------
+|He||loves||telling||stories|
+|pron||v||v||n|
+Parser output: 
+	root(loves-1)
+	subject(loves-1,He-0)
+	verb2(loves-1,telling-2)
+	object(telling-2,stories-3)
+
+New words: 	None
+
+-------------------------
+|Fishing||is||a||good||profession|
+|n||v||article||adj||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Fishing-0)
+	det(profession-4,a-2)
+	adj(profession-4,good-3)
+	object(is-1,profession-4)
+
+New words: 	None
+
+-------------------------
+|He||goes||to||market|
+|pron||v||prep||n|
+Parser output: 
+	root(goes-1)
+	subject(goes-1,He-0)
+	case(market-3,to-2)
+	nmod(goes-1,market-3)
+
+New words: 	None
+
+-------------------------
+|The||students||are||fighting|
+|article||n||v||v|
+Parser output: 
+	aux(fighting-3,are-2)
+	root(fighting-3)
+	det(students-1,The-0)
+	subject(fighting-3,students-1)
+
+New words: 	None
+
+-------------------------
+|Prativendra||is||learning||nanotechnology|
+|n||v||v||n|
+Parser output: 
+	aux(learning-2,is-1)
+	root(learning-2)
+	subject(learning-2,Prativendra-0)
+	object(learning-2,nanotechnology-3)
+
+New words: 	None
+
+-------------------------
+|Pushpendra||is||the||founder||of||ShristiSrijan||company|
+|n||v||article||n||prep||n||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Pushpendra-0)
+	det(founder-3,the-2)
+	object(is-1,founder-3)
+	NN(company-6,ShristiSrijan-5)
+	case(company-6,of-4)
+	nmod(founder-3,company-6)
+
+New words: 	None
+
+-------------------------
+|My||mother||is||cooking||the||food|
+|pron||n||v||v||article||n|
+Parser output: 
+	aux(cooking-3,is-2)
+	root(cooking-3)
+	posess(mother-1,My-0)
+	subject(cooking-3,mother-1)
+	det(food-5,the-4)
+	object(cooking-3,food-5)
+
+New words: 	None
+
+-------------------------
+|Pradeep||is||sleeping|
+|n||v||v|
+Parser output: 
+	aux(sleeping-2,is-1)
+	root(sleeping-2)
+	subject(sleeping-2,Pradeep-0)
+
+New words: 	None
+
+-------------------------
+|Punam||is||teaching||the||children|
+|n||v||v||article||n|
+Parser output: 
+	aux(teaching-2,is-1)
+	root(teaching-2)
+	subject(teaching-2,Punam-0)
+	det(children-4,the-3)
+	object(teaching-2,children-4)
+
+New words: 	None
+
+-------------------------
+|Revati||sang||a||song|
+|n||v||article||n|
+Parser output: 
+	root(sang-1)
+	subject(sang-1,Revati-0)
+	det(song-3,a-2)
+	object(sang-1,song-3)
+
+New words: 	None
+
+-------------------------
+|Revati||was||singing||a||song|
+|n||v||v||article||n|
+Parser output: 
+	aux(singing-2,was-1)
+	root(singing-2)
+	subject(singing-2,Revati-0)
+	det(song-4,a-3)
+	object(singing-2,song-4)
+
+New words: 	None
+
+-------------------------
+|Revati||had||singing||a||song|
+|n||v||v||article||n|
+Parser output: 
+	aux(singing-2,had-1)
+	root(singing-2)
+	subject(singing-2,Revati-0)
+	det(song-4,a-3)
+	object(singing-2,song-4)
+
+New words: 	None
+
+-------------------------
+|Revati||had||been||singing||a||song|
+|n||v||v||v||article||n|
+Parser output: 
+	aux(singing-3,had-1)
+	aux(singing-3,been-2)
+	root(singing-3)
+	subject(singing-3,Revati-0)
+	det(song-5,a-4)
+	object(singing-3,song-5)
+
+New words: 	None
+
+-------------------------
+|I||helped||ram|
+|pron||v||n|
+Parser output: 
+	root(helped-1)
+	subject(helped-1,I-0)
+	object(helped-1,ram-2)
+
+New words: 	None
+
+-------------------------
+|I||write||a||book|
+|pron||v||article||n|
+Parser output: 
+	root(write-1)
+	subject(write-1,I-0)
+	det(book-3,a-2)
+	object(write-1,book-3)
+
+New words: 	None
+
+-------------------------
+|I||wrote||a||book|
+|pron||v||article||n|
+Parser output: 
+	root(wrote-1)
+	subject(wrote-1,I-0)
+	det(book-3,a-2)
+	object(wrote-1,book-3)
+
+New words: 	None
+
+-------------------------
+|I||will||write||a||book|
+|pron||v||v||article||n|
+Parser output: 
+	aux(write-2,will-1)
+	root(write-2)
+	subject(write-2,I-0)
+	det(book-4,a-3)
+	object(write-2,book-4)
+
+New words: 	None
+
+-------------------------
+|Punam||cleans||her||room|
+|n||v||pron||n|
+Parser output: 
+	root(cleans-1)
+	subject(cleans-1,Punam-0)
+	posess(room-3,her-2)
+	object(cleans-1,room-3)
+
+New words: 	None
+
+-------------------------
+|I||take||the||train||to||the||office|
+|pron||v||article||n||prep||article||n|
+Parser output: 
+	root(take-1)
+	subject(take-1,I-0)
+	det(train-3,the-2)
+	object(take-1,train-3)
+	det(office-6,the-5)
+	case(office-6,to-4)
+	nmod(train-3,office-6)
+
+New words: 	None
+
+-------------------------
+|He||speaks||french|
+|pron||v||n|
+Parser output: 
+	root(speaks-1)
+	subject(speaks-1,He-0)
+	object(speaks-1,french-2)
+
+New words: 	None
+
+-------------------------
+|They||watch||television||regularly|
+|pron||v||n||adv|
+Parser output: 
+	root(watch-1)
+	subject(watch-1,They-0)
+	object(watch-1,television-2)
+	advmod(watch-1,regularly-3)
+
+New words: 	None
+
+-------------------------
+|She||understands||english|
+|pron||v||n|
+Parser output: 
+	root(understands-1)
+	subject(understands-1,She-0)
+	object(understands-1,english-2)
+
+New words: 	None
+
+-------------------------
+|The||poor||person||is||sitting||on||the||chair|
+|article||adj||n||v||v||prep||article||n|
+Parser output: 
+	aux(sitting-4,is-3)
+	root(sitting-4)
+	det(person-2,The-0)
+	adj(person-2,poor-1)
+	subject(sitting-4,person-2)
+	det(chair-7,the-6)
+	case(chair-7,on-5)
+	nmod(sitting-4,chair-7)
+
+New words: 	None
+
+-------------------------
+|I||like||icecream|
+|pron||v||n|
+Parser output: 
+	root(like-1)
+	subject(like-1,I-0)
+	object(like-1,icecream-2)
+
+New words: 	None
+
+-------------------------
+|Nidhi||is||a||good||girl|
+|n||v||article||adj||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,Nidhi-0)
+	det(girl-4,a-2)
+	adj(girl-4,good-3)
+	object(is-1,girl-4)
+
+New words: 	None
+
+-------------------------
+|My||brother||is||living||in||South||Korea|
+|pron||n||v||v||prep||n||n|
+Parser output: 
+	aux(living-3,is-2)
+	root(living-3)
+	posess(brother-1,My-0)
+	subject(living-3,brother-1)
+	NN(Korea-6,South-5)
+	case(Korea-6,in-4)
+	nmod(living-3,Korea-6)
+
+New words: 	None
+
+-------------------------
+|We||are||watching||a||movie|
+|pron||v||v||article||n|
+Parser output: 
+	aux(watching-2,are-1)
+	root(watching-2)
+	subject(watching-2,We-0)
+	det(movie-4,a-3)
+	object(watching-2,movie-4)
+
+New words: 	None
+
+-------------------------
+|Ram||is||really||clever|
+|n||v||adv||adj|
+Parser output: 
+	root(is-1)
+	subject(is-1,Ram-0)
+	adjsub(Ram-0,clever-3)
+	advmod(is-1,really-2)
+
+New words: 	None
+
+-------------------------
+|My||grandmother||always||smile||cheerfully|
+|pron||n||adv||v||adv|
+Parser output: 
+	root(smile-3)
+	posess(grandmother-1,My-0)
+	subject(smile-3,grandmother-1)
+	advmod(smile-3,always-2)
+	advmod(smile-3,cheerfully-4)
+
+New words: 	None
+
+-------------------------
+|School||begins||on||monday|
+|n||v||prep||n|
+Parser output: 
+	root(begins-1)
+	subject(begins-1,School-0)
+	case(monday-3,on-2)
+	nmod(begins-1,monday-3)
+
+New words: 	None
+
+-------------------------
+|He||is||a||boy|
+|pron||v||article||n|
+Parser output: 
+	root(is-1)
+	subject(is-1,He-0)
+	det(boy-3,a-2)
+	object(is-1,boy-3)
+
+New words: 	None
+
+
+**************************************************
+
+ Total number of sentences	:102
+ Complete parse trees	:102
+ Incomplete parse trees with unknown relations	:0
+ Failed due to the lack of root verb in the sentence	:0
+ Number of sentences with new words	:0
+
+ Sentences for which parse tree is incomplete: 
+	None
+
+ Sentences where the root verb is missing: 
+	None
+
+ Sentences with new words: 
+	None
