@@ -29,8 +29,9 @@ Syntax information for the input sentence.
 * For each 'Word' in 'Words',
 1. Search 'Root Dict'. If entry found, retrieve the properties.
 2. If entry not found, Search 'Inflected Dict' and retrieve the properties.
-...Now we have the information about each and every word in the sentence. Hence we know which
-word is the verb, noun etc.
+
+*Now we have the information about each and every word in the sentence. Hence we know which
+word is the verb, noun etc.*
 
 ## **Identifying the Syntax** ##
 
