@@ -27,9 +27,9 @@ Syntax information for the input sentence.
 * Extract the words from the 'Sentence' and store it in list 'Words'
 * Let 'Count' be the number of words.
 * For each 'Word' in 'Words',
-+ Search 'Root Dict'. If entry found, retrieve the properties.
-+ If entry not found, Search 'Inflected Dict' and retrieve the properties.
-.. Now we have the information about each and every word in the sentence. Hence we know which
+1. Search 'Root Dict'. If entry found, retrieve the properties.
+2. If entry not found, Search 'Inflected Dict' and retrieve the properties.
+...Now we have the information about each and every word in the sentence. Hence we know which
 word is the verb, noun etc.
 
 ## **Identifying the Syntax** ##
